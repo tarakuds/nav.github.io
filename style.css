@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(152, 152, 152);
+}
+#menu-bar {
+  background-color: #fff;
+  height: 40px;
+  width: 80px;
+  padding: 2px 3px 2px 5px;
+  cursor: pointer;
+}
+/* #menu-bar:hover {
+  background-color: blue;
+} */
+
+.bar {
+  background-color: #f11;
+  width: 70px;
+  height: 3px;
+  margin-top: 7px;
+  display: block;
+}
+#bar2 {
+}
+
+div nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  color: #f11;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
